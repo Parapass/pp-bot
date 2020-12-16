@@ -1,8 +1,6 @@
 const { Client, MessageEmbed } = require('discord.js');
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const reactions = require('./reactions.js');
-const removeroles = require('./roles.js');
 const PREFIX = "-"
 client.on("ready", () => {
   console.log('Bot is running with "+client.users.size+" users, in  "+client.channels.size+" channels of "+client.guilds.size+" guilds! 👍')
