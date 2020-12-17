@@ -1,1 +1,1 @@
-worker: node /app/core.js
+worker: node core.js
